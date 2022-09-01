@@ -1,0 +1,124 @@
+
+.head {
+ display: flex;
+justify-content: flex-end;
+ padding: 2px;
+
+}
+.info a {
+  color: #5f6368;
+ text-decoration: none;
+ padding: 21px;
+}
+.fa-user {
+  height: 30px;
+  width: 40px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  border-radius: 50%;
+}
+
+input {
+  width: 480px;
+  height: 30px;
+  border-radius: 20px;
+  border: 3px solid whitesmoke;
+  text-align: center;
+}
+input:focus {
+  outline: 1px solid whitesmoke;
+}
+
+input:hover {
+  box-shadow: 0px 0.5px 0.5px 0.5px rgb(224, 213, 215);
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 10px;
+  color: rgb(197, 197, 231);
+  width: 50px;
+  text-align: center;
+}
+
+.keyboard {
+  margin-left: -64px;
+  margin-top: 10px;
+}
+.microphone {
+  margin-left: -34px;
+  margin-top: 10px;
+  color: blue;
+}
+
+
+.search {
+  background: whitesmoke;
+  border: none;
+  height: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+  margin-right: 2px;
+}
+
+.search:hover {
+  cursor: pointer;
+  border: 1px solid silver;
+}
+
+.chance {
+  background: whitesmoke;
+  border: none;
+  height: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+.chance:hover {
+  cursor: pointer;
+  border: 1px solid silver;
+}
+
+#tools {
+  text-align: center;
+  margin-top: 230px;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 15px;
+
+}
+
+.footer a {
+  color: gray;
+  text-decoration: none;
+  padding: 10px;
+}
+.footer-one {
+  padding: 10px;
+  display: block;
+  background-color: #f2f2f2;
+  color: #5f6368;
+  border-bottom: 0.5px solid rgb(196, 181, 181);
+}
+
+.parent {
+  margin-top: 370px;
+}
